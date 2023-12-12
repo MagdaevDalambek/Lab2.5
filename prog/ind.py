@@ -10,7 +10,6 @@
 import sys
 
 if __name__ == "__main__":
-
         input_tuple = tuple(map(int, input("Введите минимум 3 элемента кортежа через пробел: ").split()))
         if len(input_tuple) < 3:
             print("Ошибка: необходимо ввести минимум 3 элемента", file=sys.stderr)
